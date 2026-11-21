@@ -1,9 +1,11 @@
-// Entry program for news-image-20261121 (Node 22, standard library only).
+// Entry program for news-image-20261121, second edition (Node 22, stdlib only).
 //
-// It writes the front-page image for Saturday 21 November 2026 — drawn by
-// draw.py in this repository — to /output/entry.png. The copy is exact, so
-// both runs of the program produce identical bytes. No network, no randomness:
-// the output is the committed entry.png, byte for byte.
+// It copies the front-page image for Saturday 21 November 2026 — drawn from
+// scratch by draw.py in this repository (the Shenzhen summit leads; the world
+// court ruling and the market sell-off sit in a right-hand sidebar; the Kyiv
+// barrage and the cancer-pill trial fill the bottom band) — to
+// /output/entry.png. The copy is exact, so both runs write identical bytes:
+// no network, no randomness, just the committed entry.png, byte for byte.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
